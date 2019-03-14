@@ -1,0 +1,97 @@
+body .menu {
+  font-size: unset;
+}
+
+.menu-item {
+  position: absolute;
+  top: 8px;
+  left: 13px;
+}
+
+.about {
+  left: 170px;
+  top: 32px;
+}
+
+.contact {
+  left: 237px;
+  top: 40px;
+}
+
+.requisites {
+  left: 310px;
+  top: 40px;
+}
+
+.menu-item:hover {
+  cursor: pointer;
+  background-color: aqua;
+}
+
+.sub-conteiner {
+  position: absolute;
+  display: none;
+}
+
+.about:hover .sub-conteiner {
+  display: block;
+}
+
+.baner-img {
+  position: absolute;
+  top: 80px;
+}
+
+.header {
+  background: url(../img/1520025490_photo_banner_bg_1.jpg) no-repeat center top /
+    cover;
+  height: 100vh;
+}
+
+.href {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+.menu {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.788);
+  border: 1px solid black;
+  width:  1360px; 
+  height: 100px;
+}
+
+.text-about {
+  position: relative;
+  left: 150px;
+  width: 600px;
+  height: 500px;;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.about {
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.s2 {
+  position: relative;
+  top: -480px;
+  right: 150px;
+  float: right;
+}
+
+
+.text-about-2 {
+  position: relative;
+  
+  width: 600px;
+  height: 200px;
+  float: left;
+  right: -800px;
+
+}
