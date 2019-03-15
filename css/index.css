@@ -1,35 +1,59 @@
-body .menu {
-  font-size: unset;
-}
-
-.baner-img {
-  position: absolute;
-  top: 80px;
-}
 
 .header {
   background: url(../img/1520025490_photo_banner_bg_1.jpg) no-repeat center top/cover;
   height: 100vh;
   position: relative;
   
+  
 }
+  .menu {
+    position: relative;
+    background: rgba(0, 0, 0, 0.884);
+    width:  auto; 
+    height: 120px;
+  }
+
+  .all {
+    width: 100%;
+  }
+  
+.baner-img {
+  padding: 17px 20px;
+  position: absolute;
+  box-sizing: border-box 
+}
+
+.nav {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  word-spacing: 20px;
+  padding: 40px 300px;
+  box-sizing: border-box;
+}
+
 
 .href {
   text-decoration: none;
   color: white;
-  font-size: 14px;
 }
 
-.menu {
-  position: relative;
-  background: rgba(0, 0, 0, 0.788);
-  border: 1px solid black;
-  width:  auto; 
-  height: 100px;
+.href:hover {
+  cursor: pointer;
+  border: 1px solid rgba(219, 115, 30, 0.671);
+  border-radius: 10px;
 }
 
 
-.about {
+.sub-conteiner {
+  position: absolute;
+  display: none;
+}
+  .ad:hover .sub-conteiner {
+    display: block;
+  }
+
+
+.about-service {
   text-align: center;
   font-size: 45px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -78,10 +102,17 @@ body .menu {
   right: 40px;
 }
 
-.foter-cont {
-  text-align: center;
+.footer-cont {
+  margin: 50px 150px;
+  position: absolute;
+
 }
 
 .footer {
-  background-image: url(../img/footer_bg.jpg) 
+  background-image: url(../img/footer_bg.jpg);
+  height: 200px;
 }
+
+
+
+
